@@ -1,7 +1,9 @@
 export default function Home({ lang = "en" }) {
-  // Build the correct path for the calculator based on language (default to 'en' if anything unexpected)
   const validLang = lang === "zh" ? "zh" : "en";
-  const calculatorLink = `/${validLang}/800m-calculator`;
+  const calculatorLink =
+    validLang === "zh"
+      ? "https://www.seanfontaine.dev/zh/800m-calculator"
+      : "https://www.seanfontaine.dev/en/800m-calculator";
 
   return (
     <>
@@ -18,7 +20,6 @@ export default function Home({ lang = "en" }) {
           <li>
             <a href={calculatorLink}>800m Training & Race Calculator</a>
           </li>
-          {/* Add more links as you build more apps */}
         </ul>
       </div>
     </>

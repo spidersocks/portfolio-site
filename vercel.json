@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/800m-calculator", "destination": "https://800m-frontend-yourusername.vercel.app/800m-calculator" },
+    { "source": "/800m-calculator/(.*)", "destination": "https://800m-frontend-yourusername.vercel.app/800m-calculator/$1" }
+  ]
+}
