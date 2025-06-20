@@ -1,9 +1,9 @@
 export default function Home({ lang = "en" }) {
   const validLang = lang === "zh" ? "zh" : "en";
-  const calculatorLink =
-    validLang === "zh"
-      ? "https://www.seanfontaine.dev/zh/800m-calculator"
-      : "https://www.seanfontaine.dev/en/800m-calculator";
+const calculatorLink =
+  validLang === "zh"
+    ? "/zh/800m-calculator"
+    : "/en/800m-calculator";
 
   return (
     <>
