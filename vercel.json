@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/800m-calculator", "destination": "https://800m-frontend-git-main-sean-fontaines-projects.vercel.app/" },
-    { "source": "/800m-calculator/(.*)", "destination": "https://800m-frontend-git-main-sean-fontaines-projects.vercel.app/" }
+    { "source": "/800m-calculator", "destination": "https://www.seanfontaine.dev/800m-calculator" },
+    { "source": "/800m-calculator/(.*)", "destination": "https://www.seanfontaine.dev/en/800m-calculator" }
   ]
 }
