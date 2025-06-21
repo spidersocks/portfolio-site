@@ -1,6 +1,20 @@
 {
   "rewrites": [
-    { "source": "/800m-calculator", "destination": "https://800m-frontend.vercel.app/800m-calculator" },
-    { "source": "/800m-calculator/(.*)", "destination": "https://800m-frontend.vercel.app/800m-calculator/$1" }
+    {
+      "source": "/800m-calculator",
+      "destination": "https://800m-frontend.vercel.app/800m-calculator"
+    },
+    {
+      "source": "/800m-calculator/(.*)",
+      "destination": "https://800m-frontend.vercel.app/800m-calculator/$1"
+    },
+    {
+      "source": "/:lang/800m-calculator",
+      "destination": "https://800m-frontend.vercel.app/800m-calculator"
+    },
+    {
+      "source": "/:lang/800m-calculator/(.*)",
+      "destination": "https://800m-frontend.vercel.app/800m-calculator/$1"
+    }
   ]
 }
