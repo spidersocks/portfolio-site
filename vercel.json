@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/800m-calculator", "destination": "https://www.seanfontaine.dev/800m-calculator" },
-    { "source": "/800m-calculator/(.*)", "destination": "https://www.seanfontaine.dev/en/800m-calculator" }
+    { "source": "/800m-calculator", "destination": "https://800m-frontend.vercel.app/800m-calculator" },
+    { "source": "/800m-calculator/(.*)", "destination": "https://800m-frontend.vercel.app/800m-calculator/$1" }
   ]
 }
